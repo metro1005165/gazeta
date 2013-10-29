@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp" >
+    
+    <ImageView 
+        android:id="@+id/articleIcon"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/article_icon_desc"/>
+    
+    <TextView 
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/articleIcon"
+        android:layout_alignTop="@+id/articleIcon"
+        android:layout_marginBottom="10dp"/>
+    
+    <TextView 
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/articleIcon"
+        android:layout_below="@+id/date"
+        android:layout_marginBottom="10dp"/>
+    
+    <TextView 
+        android:id="@+id/lead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/articleIcon"
+        android:layout_below="@+id/heading"
+        android:layout_alignBottom="@+id/articleIcon"/>
+    
+    <TextView 
+        android:id="@+id/department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"/>
+    
+</RelativeLayout>

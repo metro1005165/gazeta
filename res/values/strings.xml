@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Swengi</string>
+    <string name="action_settings">Settings</string>
+    <string name="news_pic_desc">News Picture</string>
+    <string name="department_text">Department Type</string>
+    <string name="title_activity_test_fragments">TestFragments</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_details">Latest Articles</string>
+    <string name="title_activity_service">ServiceActivity</string>
+    <string name="start_service">Start Service</string>
+    <string name="title_activity_test">TestActivity</string>
+    
+    <string name="btn_test_dep_titles">Get articles by dep name</string>
+    <string name="titles_hint">Please enter dep. name (example: Urheilu)</string>
+    <string name="btn_test_dep_ids">Get articles by dep server id</string>
+    <string name="ids_hint">Please enter dep. id</string>
+    
+    <string name="article_icon_desc">Article Icon</string>
+
+</resources>
